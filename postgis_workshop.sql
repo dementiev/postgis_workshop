@@ -90,7 +90,7 @@ SELECT sum(countsandareas)
 FROM a_forestcover_mtm7_summary
 WHERE summary = '3';
 
--- Sum the gap areas - 2132m
+-- Sum the gap areas - 4752m
 SELECT sum(countsandareas) 
 FROM a_forestcover_mtm7_summary
 WHERE summary = '4';
